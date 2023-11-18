@@ -10,14 +10,14 @@ include 'libs/load.php';
 
 <body>
 
-	<?load_template('_header');?>
-	<main>
+    <?load_template('_header');?>
+    <main>
 
-		<?load_template('_signup');?>
+        <?load_template('_signup');?>
 
-	</main>
-	<?load_template('_footer');?>
-	<script src="/assets/dist/js/bootstrap.bundle.min.js"></script>
+    </main>
+    <?load_template('_footer');?>
+    <script src="/app/assets/dist/js/bootstrap.bundle.min.js"></script>
 
 
 </body>

@@ -16,11 +16,38 @@ include 'libs/load.php';
 // print("_COOKIES \n");
 // print_r($_COOKIE);
 
-if (signup("sibidharan", "password", "sibi@selfmade.ninja", "9999999999")) {
-    echo "Success";
-} else {
-    echo "Fail";
-}
+// if (signup("sibidharan", "password", "sibi@selfmade.ninja", "9999999999")) {
+//     echo "Success";
+// } else {
+//     echo "Fail";
+// }
+
+$mic1 = new Mic("Roda"); //constructing the object
+$mic2 = new Mic("HyperX"); //constructing the object
+
+Mic::testFunction(); //no construction, no destruction.
+testFunction();
+
+$mic1->setLight("White");
+$mic2->setLight("Green");
+
+print(ucwords("hyper quad cast"));
+$mic1->setModel("hyper quad cast");
+print("Model of 1st mic is ".$mic1->getModelProxy());
+print("\n".$mic1->getBrand());
+print("\n".$mic2->getBrand());
+
+print("Value of 10+12 is ".$mic1->add(10, 12));
+print("This is mono font inside pre tag \n");
+
+$conn = Database::getConnection();
+$conn = Database::getConnection();
+$conn = Database::getConnection();
+$conn = Database::getConnection();
+$conn = Database::getConnection();
+$conn = Database::getConnection();
+$conn = Database::getConnection();
 
 ?>
 </pre>
+This is regular font.
